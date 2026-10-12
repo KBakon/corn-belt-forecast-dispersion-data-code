@@ -1,0 +1,51 @@
+{
+  "primary_n": 1777,
+  "ols_unweighted": true,
+  "state_week_categories": 176,
+  "year_week_categories": 166,
+  "fe_rank": 328,
+  "total_rank": 337,
+  "residual_df": 1440,
+  "state_clusters": 17,
+  "week_date_clusters": 166,
+  "state_week_intersection_clusters": 1777,
+  "two_way_cluster_p_df": 16,
+  "numeric_condition_number_after_fe": 11.533245667172023,
+  "r_squared": 0.7736917904703795,
+  "min_state_cluster_rows": 81,
+  "min_week_date_cluster_rows": 1,
+  "independent_coefficient_check": {
+    "method": "full-design SVD least squares; independent of FWL/QR",
+    "coefficient": 0.1353486466469412,
+    "absolute_difference": 3.608224830031759e-16,
+    "full_design_columns": 351,
+    "full_design_rank": 337
+  },
+  "cr2_state_satterthwaite": {
+    "status": "computed",
+    "cluster": "state",
+    "working_covariance": "identity",
+    "adjustment": "CR2 inverse square root on estimable residual subspace",
+    "state_clusters": 17,
+    "null_directions_removed": 181,
+    "working_moment_relative_error": 5.9137478209455065e-16,
+    "se": 0.056007227155611135,
+    "satterthwaite_df": 13.165053022404068,
+    "t": 2.416628237475269,
+    "two_sided_p": 0.03088948604248406,
+    "ci95_lower": 0.014506410956670393,
+    "ci95_upper": 0.25619088233721277
+  },
+  "conley_500km_1week": {
+    "status": "computed",
+    "centroids": "2019 TIGER state geometry",
+    "distance": "WGS84 geodesic",
+    "spatial_kernel": "Bartlett",
+    "spatial_cutoff_km": 500,
+    "temporal_kernel": "Bartlett",
+    "temporal_lag_weeks": 1,
+    "se": 0.05883634435723252,
+    "z": 2.3004258358601386,
+    "normal_approx_two_sided_p": 0.021424106517708933
+  }
+}

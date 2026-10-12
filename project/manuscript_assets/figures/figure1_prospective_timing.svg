@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="828pt" height="252pt" viewBox="0 0 828 252" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252 
+L 828 252 
+L 828 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 102.712237 171.977546 
+L 102.712237 154.686845 
+" clip-path="url(#p5991b70610)" style="fill: none; stroke: #165a88; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 671.87269 171.977546 
+L 671.87269 154.686845 
+" clip-path="url(#p5991b70610)" style="fill: none; stroke: #754e19; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 766.732766 171.977546 
+L 766.732766 154.686845 
+" clip-path="url(#p5991b70610)" style="fill: none; stroke: #28354a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 50.539195 171.977546 
+L 50.539195 154.686845 
+" clip-path="url(#p5991b70610)" style="fill: none; stroke: #754e19; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 104.709772 164.118136 
+Q 437.091899 164.118136 767.237959 164.118136 
+" style="fill: none; stroke: #28354a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 763.237959 162.118136 
+L 767.237959 164.118136 
+L 763.237959 166.118136 
+" style="fill: none; stroke: #28354a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #165a88" transform="translate(67.439268 190.720192)">Monday 00 UTC</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #165a88" transform="translate(62.222081 201.522653)">GEFS initialization</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #754e19" transform="translate(644.361518 190.719489)">Target NASS</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #754e19" transform="translate(624.720424 201.52195)">week-ending Sunday</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #28354a" transform="translate(708.955578 190.720192)">Following Monday 00 UTC</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #28354a" transform="translate(732.283859 201.522653)">168-h endpoint</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #754e19" transform="translate(17.93318 110.955639)">Previous NASS</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #754e19" transform="translate(3.38693 121.7581)">week-ending Sunday</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 106.611696 58.016107 
+Q 434.723026 58.016107 757.244187 58.016107 
+" style="fill: none; stroke: #165a88; stroke-width: 5; stroke-linecap: round"/>
+    <path d="M 753.244187 56.016107 
+L 757.244187 58.016107 
+L 753.244187 60.016107 
+" style="fill: none; stroke: #165a88; stroke-width: 5; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #165a88" x="434.722501" y="42.297288" transform="rotate(-0 434.722501 42.297288)">GEFS forecast hours 0–168: prospective precipitation distribution</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 106.611696 113.031974 
+Q 434.723026 113.031974 758.362221 113.031974 
+" style="fill: none; stroke: #42927f; stroke-width: 4; stroke-linecap: round"/>
+    <path d="M 754.362221 111.031974 
+L 758.362221 113.031974 
+L 754.362221 115.031974 
+" style="fill: none; stroke: #42927f; stroke-width: 4; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #286f5d" x="434.722501" y="98.099096" transform="rotate(-0 434.722501 98.099096)">NLDAS realized conditions over the same physical UTC window</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #454f5f" x="434.722501" y="234.066882" transform="rotate(-0 434.722501 234.066882)">NASS Sunday is a reporting date; the Monday 00 UTC timestamps define physical-window alignment.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5991b70610">
+   <rect x="22.081173" y="3.00024" width="780.698422" height="245.99952"/>
+  </clipPath>
+ </defs>
+</svg>

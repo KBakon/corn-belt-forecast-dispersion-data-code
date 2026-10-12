@@ -1,0 +1,48 @@
+variable,unit_or_type,definition,source
+state_fips,string,2019 TIGER state FIPS; frozen 17-state frame,TIGER/Line 2019
+state_postal,string,State postal code,TIGER/Line 2019
+state_name,string,NASS state name,USDA NASS Quick Stats
+crop,string,"CORN, frozen primary crop",frozen design
+crop_year,integer,NASS reporting crop year,USDA NASS Quick Stats
+week_ending_sunday,date,NASS week-ending Sunday,USDA NASS Quick Stats
+seasonal_week,integer,ISO week of NASS Sunday,derived
+planting_previous_pct,percent,Previous Sunday cumulative corn planted,USDA NASS Quick Stats
+planting_cumulative_pct,percent,Current Sunday cumulative corn planted,USDA NASS Quick Stats
+planting_increment_pp,percentage points,Unsmoothed current minus previous cumulative progress,derived from NASS
+remaining_start_pp,percentage points,100 minus prior cumulative progress,derived from NASS
+dsfw_days,days per week,Days Suitable for Fieldwork,USDA NASS Quick Stats
+dsfw_zero_flag,boolean,DSFW equals zero,derived from NASS
+active_week_flag,boolean,5 <= prior cumulative planting < 95,frozen design
+increment_valid_flag,boolean,Weekly planting increment is nonnegative,frozen design
+planting_utilization_pp_per_suitable_day,percentage points per suitable day,Increment divided by positive DSFW for valid active rows,derived from NASS
+gefs_archive_cycle,YYYYMMDDHH,Selected Monday 00 archive directory,NOAA GEFSv12
+gefs_reference_time_utc,UTC timestamp,Decoded GRIB reference time,NOAA GEFSv12
+forecast_window_start_utc,UTC timestamp,Physical seven-day window start,decoded GEFS metadata
+forecast_window_end_utc,UTC timestamp,"Physical seven-day window end, exclusive for NLDAS hours",decoded GEFS metadata
+gefs_precip_mean_mm,mm,Five-member mean of corn-weighted 0-168 h precipitation totals,NOAA GEFSv12
+gefs_precip_sd5_mm,mm,"Sample SD of five member totals, ddof=1",NOAA GEFSv12
+gefs_precip_mean_iqr,pooled IQR units,Raw GEFS mean centered and scaled on fixed ISO 13-26 frame,derived from GEFS
+gefs_precip_sd5_iqr,pooled IQR units,Raw GEFS SD centered and scaled on fixed ISO 13-26 frame,derived from GEFS
+gefs_precip_mean_area_mm,mm,Five-member state-land-area mean for outcome-blind spatial QA,NOAA GEFSv12
+gefs_precip_sd5_area_mm,mm,Five-member state-land-area SD for outcome-blind spatial QA,NOAA GEFSv12
+nldas_precip_total_mm,mm,Sum of hourly crop-weighted Rainf over physical forecast window,NLDAS_FORA0125_H.2.0
+nldas_tair_mean_c,degrees C,"Mean hourly crop-weighted Tair, K-273.15",NLDAS_FORA0125_H.2.0
+nldas_soilm_0_10_mean_kgm2,kg m-2,Mean hourly crop-weighted top-layer Noah soil moisture,NLDAS_NOAH0125_H.2.0
+nldas_soilm_0_10_start_kgm2,kg m-2,First available hourly top-layer Noah soil moisture at/after reference,NLDAS_NOAH0125_H.2.0
+nldas_precip_total_area_mm,mm,State-land-area counterpart for spatial QA,NLDAS_FORA0125_H.2.0
+nldas_tair_mean_area_c,degrees C,State-land-area counterpart for spatial QA,NLDAS_FORA0125_H.2.0
+nldas_soilm_0_10_mean_area_kgm2,kg m-2,State-land-area counterpart for spatial QA,NLDAS_NOAH0125_H.2.0
+nldas_soilm_0_10_start_area_kgm2,kg m-2,First available hourly state-land-area Noah soil moisture for spatial QA,NLDAS_NOAH0125_H.2.0
+primary_complete_case_flag,boolean,"All frozen primary variables present after active, valid and DSFW>0 rules",derived
+nldas_precip_total_mm_valid_hours,hours,Observed hourly values out of 168,NLDAS-2
+nldas_precip_total_mm_missing_reason,string,Reason control is missing after 95% threshold,NLDAS-2
+nldas_precip_total_area_mm_valid_hours,hours,Observed hourly values out of 168,NLDAS-2
+nldas_precip_total_area_mm_missing_reason,string,Reason control is missing after 95% threshold,NLDAS-2
+nldas_tair_mean_c_valid_hours,hours,Observed hourly values out of 168,NLDAS-2
+nldas_tair_mean_c_missing_reason,string,Reason control is missing after 95% threshold,NLDAS-2
+nldas_tair_mean_area_c_valid_hours,hours,Observed hourly values out of 168,NLDAS-2
+nldas_tair_mean_area_c_missing_reason,string,Reason control is missing after 95% threshold,NLDAS-2
+nldas_soilm_0_10_mean_kgm2_valid_hours,hours,Observed hourly values out of 168,NLDAS-2
+nldas_soilm_0_10_mean_kgm2_missing_reason,string,Reason control is missing after 95% threshold,NLDAS-2
+nldas_soilm_0_10_mean_area_kgm2_valid_hours,hours,Observed hourly values out of 168,NLDAS-2
+nldas_soilm_0_10_mean_area_kgm2_missing_reason,string,Reason control is missing after 95% threshold,NLDAS-2

@@ -1,0 +1,6 @@
+sensitivity,n,coefficient,two_way_cluster_se,ci95_lower,ci95_upper,two_sided_p,state_clusters,week_date_clusters,note
+acreage_weighted,1777,0.17363319611704028,0.11133996376007452,-0.062396983073044116,0.4096633753071247,0.13844007895545546,17,166,Same frozen primary rows; independently sourced annual NASS planted corn acreage fixed by state-year
+direct_weekly_increment,1777,0.4313266675383951,0.23172570516945848,-0.05990988281612197,0.9225632178929122,0.08116694542624066,17,166,Active start-state frame; weekly increment outcome; DSFW=0 rows retained if present
+fixed_iso_weeks_14_24,2588,0.06796152808414449,0.05347939484754422,-0.04540972445231037,0.18133278062059935,0.22196720622918573,17,167,Fixed ISO 14–24 frame without the 5/95 active-state filter; DSFW>0
+start_of_window_soil_moisture,1777,0.13616190695867134,0.0692744214914481,-0.01069330626153625,0.2830171201788789,0.06695438922580993,17,166,Start-of-window Noah top-layer soil moisture replaces weekly mean
+state_land_area_meteorology,1777,0.1231139796548504,0.08965796222950001,-0.06695240959284578,0.3131803689025466,0.18864393387620296,17,166,State-land-area GEFS/NLDAS aggregation; own outcome-blind pooled ISO 13–26 IQR scaling

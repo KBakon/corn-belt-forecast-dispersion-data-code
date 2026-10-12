@@ -1,0 +1,7 @@
+{
+  "method": "full-design SVD least squares; independent of FWL/QR",
+  "coefficient": 0.1353486466469412,
+  "absolute_difference": 3.608224830031759e-16,
+  "full_design_columns": 351,
+  "full_design_rank": 337
+}

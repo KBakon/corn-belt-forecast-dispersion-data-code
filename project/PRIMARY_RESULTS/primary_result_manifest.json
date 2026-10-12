@@ -1,0 +1,37 @@
+{
+  "work_package": "P1-M2 \u2014 PRIMARY ASSOCIATION OPENING",
+  "run_utc": "2026-10-07T12:32:38.317443+00:00",
+  "controller_adjudication_sha256": "e400f9290969d983dbfe81e80a98012b9211069460bc8ab8d8b9e6a06f96ccca",
+  "frozen_primary_spec_sha256": "70762912bc8b6e506995f697814c5aaa411decad88ed0d84330cb491b0868f51",
+  "accepted_primary_panel_sha256": "bc20339686b6ccc819e022d8b3b827bf02bc8ce27e38a1099e515c64ae2b0896",
+  "analysis_script_sha256": "9f013f4886d2d5815b7b578c919018c3507f05d4aacd29a7423b20b72c2fcb32",
+  "inference_script_sha256": "300d9cec404fab91b48e56b8d58873e3960c77dc525b6e419417a30fd03ef3f2",
+  "accepted_primary_n": 1777,
+  "acreage_source_manifest_sha256": "e26f46818bc5b6e31d1d52523090cc8ff64596bdc436d93fd2803f9441760893",
+  "acreage_subset_sha256": "d8fbed139d95fb2c9abf362e70277bf2f7bbeca5b1c4de88987ad8e1db6cc8cf",
+  "pooled_gefs_scaling": {
+    "mean_median_mm": 24.334998598953817,
+    "mean_iqr_mm": 23.028606085960725,
+    "sd5_median_mm": 8.198239981454233,
+    "sd5_iqr_mm": 7.403760333047428
+  },
+  "area_sensitivity_scaling": {
+    "dispersion": {
+      "raw_field": "gefs_precip_sd5_area_mm",
+      "pooled_median": 7.374494146145343,
+      "pooled_iqr": 6.662789016300513,
+      "fixed_frame_rows": 4760
+    },
+    "mean": {
+      "raw_field": "gefs_precip_mean_area_mm",
+      "pooled_median": 24.177321515083655,
+      "pooled_iqr": 22.060542065759975,
+      "fixed_frame_rows": 4760
+    }
+  },
+  "primary_inference": "two-way state and week-date CRV1 with min-cluster t df",
+  "bootstrap_seed": 20261007,
+  "bootstrap_replications": 9999,
+  "primary_evidence_branch": "C \u2014 statistically unresolved but practically equivalent",
+  "unapproved_subgroup_or_post_hoc_analysis_run": false
+}

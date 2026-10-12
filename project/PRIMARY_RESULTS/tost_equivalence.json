@@ -1,0 +1,11 @@
+{
+  "bound_lower": -0.5,
+  "bound_upper": 0.5,
+  "alpha": 0.05,
+  "ci90_lower": 0.013819175549315527,
+  "ci90_upper": 0.2568781177445676,
+  "p_lower_one_sided": 4.816600929285561e-08,
+  "p_upper_one_sided": 4.0577394103166145e-05,
+  "tost_p": 4.0577394103166145e-05,
+  "equivalent": true
+}

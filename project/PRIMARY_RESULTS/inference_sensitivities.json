@@ -1,0 +1,44 @@
+{
+  "wild_bootstrap_t": {
+    "seed": 20261007,
+    "rng": "NumPy PCG64",
+    "replications": 9999,
+    "cluster": "state",
+    "null": "beta_dispersion=0, restricted",
+    "weights": "Rademacher +/-1",
+    "studentization": "state-cluster CRV1",
+    "observed_state_cluster_se": 0.058807872208199025,
+    "observed_t": 2.3015395994564005,
+    "two_sided_p": 0.0516,
+    "extreme_replications": 515,
+    "draws_sha256": "cec4e22762b924335223361186d21fc2f6b86c649467bf29d6b23b8b5e08fcb9",
+    "state_clusters": 17
+  },
+  "cr2_state_satterthwaite": {
+    "status": "computed",
+    "cluster": "state",
+    "working_covariance": "identity",
+    "adjustment": "CR2 inverse square root on estimable residual subspace",
+    "state_clusters": 17,
+    "null_directions_removed": 181,
+    "working_moment_relative_error": 5.9137478209455065e-16,
+    "se": 0.056007227155611135,
+    "satterthwaite_df": 13.165053022404068,
+    "t": 2.416628237475269,
+    "two_sided_p": 0.03088948604248406,
+    "ci95_lower": 0.014506410956670393,
+    "ci95_upper": 0.25619088233721277
+  },
+  "conley_500km_1week": {
+    "status": "computed",
+    "centroids": "2019 TIGER state geometry",
+    "distance": "WGS84 geodesic",
+    "spatial_kernel": "Bartlett",
+    "spatial_cutoff_km": 500,
+    "temporal_kernel": "Bartlett",
+    "temporal_lag_weeks": 1,
+    "se": 0.05883634435723252,
+    "z": 2.3004258358601386,
+    "normal_approx_two_sided_p": 0.021424106517708933
+  }
+}
