@@ -1,6 +1,6 @@
 # Frozen source-data acquisition and package boundary
 
-This local candidate supports **analysis-ready panel to frozen primary results**. It does not independently reproduce raw sources to the panel. The original source objects are **not bundled**. `project/provenance/source_object_manifest.csv` records original source identity, version, object keys, retrieval evidence and checksums where available; its entries are provenance, not files in this ZIP. Public source availability and byte identity may have changed.
+This package supports **analysis-ready panel to accepted primary results**. It does not independently reproduce raw sources to the panel. The original source objects are **not bundled**. `project/provenance/source_object_manifest.csv` records original source identity, version, object keys, retrieval evidence and checksums where available; its entries are provenance, not files in this repository. Public source availability and byte identity may have changed.
 
 | Source | Frozen source and construction | Present here | Excluded; obtain from custodian for a separate source-to-panel rebuild |
 |---|---|---|---|

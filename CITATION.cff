@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "When using this derived panel or software, cite this data/code release and cite the original USDA, NOAA, NASA and Census datasets as described in THIRD_PARTY_NOTICES.md."
-title: "Precipitation Forecast-Distribution Dispersion and Suitable-Day Planting Utilization in the U.S. Corn Belt: derived data and code"
+title: "Corn Belt Forecast Dispersion: Derived Data and Reproducibility Code"
 type: dataset
 authors:
   - family-names: Bakon
     given-names: Krisztián Attila
     orcid: "https://orcid.org/0000-0003-1882-094X"
 version: "1.0.0"
-doi: 10.5281/zenodo.23319228
+repository-code: "https://github.com/KBakon/corn-belt-forecast-dispersion-data-code"

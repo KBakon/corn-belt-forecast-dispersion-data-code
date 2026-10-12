@@ -1,0 +1,2 @@
+# Preserve the accepted byte-level checksums across Git clones and archives.
+* -text
